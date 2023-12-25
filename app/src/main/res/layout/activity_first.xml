@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    tools:context=".ui.FirstActivity"
+    android:background="@drawable/background">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:src="@drawable/ic_photo"
+            android:layout_marginTop="142dp"
+            />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="@string/name"
+            style="@style/edit_text_style" />
+
+        <EditText
+            android:id="@+id/et_palindrome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/edit_text_style"
+            android:layout_marginTop="15dp"
+            android:hint="Palindrome"
+            />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:padding="14dp"
+            android:backgroundTint="@color/primary"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="CHECK"
+            />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="14dp"
+            android:backgroundTint="@color/primary"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="NEXT"
+            />
+
+</LinearLayout>
